@@ -2,13 +2,13 @@ import { database } from './database.js';
 
 let titulo = document.getElementById("titulo");
 let autor = document.getElementById("autor");
-let isbn = document.getElementById("ISBN");
+let isbn = document.getElementById("isbn");
 let fecha = document.getElementById("fecha");
 let img = document.getElementById("portada");
 
-let btnBuscar = document.getElementById("botonBuscar");
-let btnDerecha = document.getElementById("botonDerecha");
-let btnIzquierda = document.getElementById("botonIzquierda");
+let btnBuscar = document.getElementById("btnBuscar");
+let btnDerecha = document.getElementById("btnDerecha");
+let btnIzquierda = document.getElementById("btnIzquierda");
 
 let indice_actual = 0;
 
